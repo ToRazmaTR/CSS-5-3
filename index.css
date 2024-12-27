@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+.abovecontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.fullContainer {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 28px;
+    text-decoration: none;
+    gap: 24px;
+    background: #E7EEFF;
+    height: 990px;
+}
+
+
+.contentContainer {
+    max-width: 1336px;
+    width: 100%;
+}
+
+.headerContainer {
+    max-width: 1336px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1336px;
+    width: 100%;
+    background: #E7EEFF;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.searcContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #000;
+    font-size: 16px;
+}
+
+.simons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #5E6577;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Cardcontainer {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1144px;
+    width: 100%;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.mainContainer {
+    display: flex;
+    max-width: 1144px;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.minicards {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 24px 8px 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+}
+
+.picturecontainer {
+    display: flex;
+    gap: 42px;
+}
+
+
+
+.bigPclass {
+    color: #000;
+    font-size: 18px;
+}
+
+.smallPclass {
+    color: #606060;
+    font-size: 14px;
+
+}
+
+.houseP {
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;  
+}
+
+.picturecontainer-two {
+    display: flex;
+    gap: 42px;
+    margin-top: 42px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
